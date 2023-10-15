@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Member 1",
+    "tel": "0201112222",
+    "email": "member1@vitest-sample.com"
+  },
+  {
+    "id": 2,
+    "name": "Member 2",
+    "tel": "0201113333",
+    "email": "member2@vitest-sample.com"
+  }
+]

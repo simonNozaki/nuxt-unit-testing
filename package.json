@@ -1,0 +1,24 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test:vitest": "vitest run",
+    "test:vitest-ui": "vitest --ui"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@vitest/ui": "^0.34.6",
+    "happy-dom": "^12.9.1",
+    "nuxt": "^3.7.4",
+    "nuxt-vitest": "^0.11.0",
+    "vitest": "^0.33.0",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5"
+  }
+}
