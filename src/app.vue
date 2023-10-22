@@ -26,5 +26,5 @@ const currentMember = computed(() => current.value?.name ?? '選択されてい�
 </template>
 
 <style scoped>
-// TODO
+/* TODO */
 </style>

@@ -17,7 +17,6 @@ function setMember(state: MemberState): MemberCompose['setMember'] {
     if (!maybeMember) return
 
     state.current.value = maybeMember
-    console.log('may be member: ', state.current.value)
   }
 }
 
