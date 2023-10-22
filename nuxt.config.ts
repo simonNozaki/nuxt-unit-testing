@@ -2,10 +2,9 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   srcDir: 'src/',
-  ssr: true,
   components: {
     dirs: [{ path: '~/components', pathPrefix: false }],
     global: true,
   },
-  // modules: ["nuxt-vitest"]
+  modules: ["nuxt-vitest"]
 })
