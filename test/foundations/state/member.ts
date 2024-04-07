@@ -1,5 +1,5 @@
-import { MemberModel } from "~/server/types/member";
-import { registerEndpoint } from "nuxt-vitest/utils";
+import type { MemberModel } from "~/server/types/member";
+import { registerEndpoint } from "@nuxt/test-utils/runtime";
 
 import mocks from "../mock/members.json";
 const members = mocks as MemberModel[];

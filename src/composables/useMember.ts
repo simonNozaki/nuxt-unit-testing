@@ -1,4 +1,4 @@
-import { MemberModel } from "~/server/types/member"
+import type { MemberModel } from "~/server/types/member"
 
 interface MemberCompose extends MemberState {
   list(): Promise<MemberModel[]>
