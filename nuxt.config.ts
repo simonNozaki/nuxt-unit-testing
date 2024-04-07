@@ -6,5 +6,6 @@ export default defineNuxtConfig({
     dirs: [{ path: '~/components', pathPrefix: false }],
     global: true,
   },
-  modules: ["nuxt-vitest"]
+  modules: ['@nuxt/test-utils/module'],
+  testUtils: {}
 })

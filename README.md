@@ -1,82 +1,15 @@
-# Nuxt 3とnuxt-vitestでユニットテストする簡単なプロジェクト
+# Nuxt 3, nuxt/test-utilsでユニットテストする簡単なプロジェクト
 
 モックのメンバーを選ぶロジックとそのテストおよび周辺セットアップのサンプルです。
 
-## Setup
+Nuxt 3.9以前に `nuxt-vitest` として実装されていたユニットテスト実装のサンプルを `nuxt/test-utils` のプロジェクトとして引き継いだものです。
 
-```bash
-# npm
-npm install
+## スクリプト
 
-# pnpm
-pnpm install
+```sh
+# テスト実行
+$ yarn test
 
-# yarn
-yarn install
-
-# bun
-bun install
+# VitestをUI上で実行
+$ yarn test:vitest-ui
 ```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Unit Testing
-
-```bash
-# vitestを単発起動
-yarn test:vitest
-
-# vitest-uiを使う場合
-yarn test:vitest-ui
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
